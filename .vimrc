@@ -2,30 +2,13 @@ if &compatible
   set nocompatible
 endif
 
-if s:MaySet('smarttab')
-  set smarttab
-endif
-
-if s:MaySet('laststatus')
-  set laststatus=2
-endif
-if s:MaySet('ruler')
-  set ruler
-endif
-if s:MaySet('wildmenu')
-  set wildmenu
-endif
-
-if s:MaySet('autoread')
-  set autoread
-endif
-
-if s:MaySet('history')
-  set history=1000
-endif
-if s:MaySet('tabpagemax')
-  set tabpagemax=50
-endif
+set autoread
+set history=1000
+set laststatus=2
+set ruler
+set smarttab
+set tabpagemax=50
+set wildmenu
 
 let g:netrw_banner=0
 let g:netrw_liststyle=3
