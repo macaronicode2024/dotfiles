@@ -6,9 +6,6 @@ sudo apt install tmux
 
 # symlink dotfiles
 sudo apt install stow
-
-# shell prompt
-https://starship.rs/install.sh | sh
 ```
 ## macOS
 
@@ -18,8 +15,4 @@ brew install tmux
 
 # symlink dotfiles
 brew install stow
-
-# shell prompt
-https://starship.rs/install.sh | sh
 ```
-

@@ -1,6 +1,5 @@
+alias grep="grep --color=auto"
+alias ls="ls --color=auto"
+
 set -o vi
-
-alias ls="ls -G"
-
-eval "$(starship init bash)"
 
