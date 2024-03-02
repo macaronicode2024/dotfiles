@@ -5,6 +5,7 @@ endif
 set autoread
 set history=1000
 set laststatus=2
+set number
 set re=2
 set ruler
 set smarttab
