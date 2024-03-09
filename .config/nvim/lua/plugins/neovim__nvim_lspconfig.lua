@@ -12,7 +12,17 @@ return {
     capabilities = vim.tbl_deep_extend("force", capabilities, cmp_nvim_lsp_capabilities)
 
     local servers = {
-      lua_ls = {},
+      lua_ls = {
+        settings = {
+          Lua = {
+            diagnostics = {
+              globals = {
+                "vim",
+              },
+            },
+          },
+        },
+      },
       pyright = {},
       tsserver = {},
       rust_analyzer = {
