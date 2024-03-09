@@ -7,8 +7,9 @@ return {
       lsp_fallback = true,
     },
     formatters_by_ft = {
-      lua = { "stylelua" },
+      lua = { "stylua" },
       typescript = { { "prettierd", "prettier" } }
     }
   }
 }
+
