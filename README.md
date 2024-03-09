@@ -1,3 +1,10 @@
+## Themes
+
+```sh
+mkdir ~/Themes && cd ~/Themes
+git clone https://github.com/folke/tokyonight.nvim.git
+```
+
 ## Linux
 
 ```sh
@@ -11,6 +18,7 @@ sudo apt install stow
 sudo apt install ripgrep
 sudo apt install fzf
 ```
+
 ## macOS
 
 ```sh
@@ -24,3 +32,4 @@ brew install stow
 brew install ripgrep
 brew install fzf
 ```
+
