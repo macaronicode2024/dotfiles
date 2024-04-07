@@ -12,6 +12,15 @@ return {
     capabilities = vim.tbl_deep_extend("force", capabilities, cmp_nvim_lsp_capabilities)
 
     local servers = {
+      cssls = {},
+      gopls = {
+        analyses = {
+          unusedparams = true,
+        },
+        staticcheck = true,
+        gofumpt = true,
+      },
+      html = {},
       lua_ls = {
         settings = {
           Lua = {
