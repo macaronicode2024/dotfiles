@@ -2,7 +2,11 @@ vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 vim.g.have_nerd_font = false
 
+vim.opt.breakindent = true
+vim.opt.clipboard = "unnamedplus"
+vim.opt.ignorecase = true
 vim.opt.number = true
+vim.opt.relativenumber = true
 vim.opt.smartcase = true
 
 local lazypath = vim.fn.stdpath("data") .. "lazy/lazy.nvim"
