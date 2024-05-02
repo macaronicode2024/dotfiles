@@ -12,6 +12,7 @@ return {
     capabilities = vim.tbl_deep_extend("force", capabilities, cmp_nvim_lsp_capabilities)
 
     local servers = {
+      clangd = {},
       cssls = {},
       gopls = {
         analyses = {
