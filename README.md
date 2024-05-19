@@ -33,3 +33,8 @@ brew install ripgrep
 brew install fzf
 ```
 
+## Keyboard
+
+/etc/default/keyboard
+
+XKBOPTIONS="caps:ctrl_modifier"

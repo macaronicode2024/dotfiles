@@ -8,6 +8,8 @@ return {
       "bash",
       "c",
       "dart",
+      "html",
+      "javascript",
       "lua",
       "markdown",
       "markdown_inline",

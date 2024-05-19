@@ -7,9 +7,15 @@ return {
       lsp_fallback = true,
     },
     formatters_by_ft = {
+      c = { "clang-format" },
+      css = { { "prettierd", "prettier" } },
+      html = { { "prettierd", "prettier" } },
       lua = { "stylua" },
-      typescript = { { "prettierd", "prettier" } }
-    }
-  }
+      javascript = { { "prettierd", "prettier" } },
+      javascriptreact = { { "prettierd", "prettier" } },
+      json = { { "prettierd", "prettier" } },
+      typescript = { { "prettierd", "prettier" } },
+      typescriptreact = { { "prettierd", "prettier" } },
+    },
+  },
 }
-
