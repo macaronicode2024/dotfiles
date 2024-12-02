@@ -34,7 +34,7 @@ return {
         },
       },
       pyright = {},
-      tsserver = {},
+      ts_ls = {},
       rust_analyzer = {
         settings = {
           ["rust-analyzer"] = {},
@@ -86,7 +86,7 @@ return {
 
     require("mason").setup()
     require("mason-lspconfig").setup({
-      ensure_installed = { "lua_ls", "rust_analyzer", "tsserver" },
+      ensure_installed = { "lua_ls", "rust_analyzer", "ts_ls" },
       handlers = {
         function(server_name)
           local server = servers[server_name] or {}
